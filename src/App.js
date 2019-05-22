@@ -1,6 +1,5 @@
 import React from 'react';
 import TopNav from './components/TopNav';
-import PropTypes from 'prop-types';
 import AreaChart from './components/AreaChart';
 import Comments from './components/Comments';
 import DonutChart from './components/DonutChart';
@@ -12,7 +11,7 @@ import Tickets from './components/Tickets';
 import TransactionsPanel from './components/TransactionsPanel';
 
 
-function App(props) {
+function App() {
   return (
     <div> 
       <div id="wrapper">
